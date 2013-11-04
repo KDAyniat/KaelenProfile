@@ -1,0 +1,50 @@
+body {
+    background: #a3a3a3;
+    padding: 20px 60px 0;
+    margin: 0px auto;
+    width: 648px;
+}
+a { color: #333; text-decoration-style: dashed; }
+
+
+header { position: relative; height: 100px; }
+#header_logo { position: absolute; top: 0; left: 0; }
+#headernav { position: absolute; top: 0; right: 0; }
+#headernav ul { float: left; list-style: none; }
+#headernav li { float: left; margin: 0; }
+#headernav li a { border-bottom: 1px solid #6b6b6b; font-weight: bold;
+    font-size: 16px; padding: 6px 15px 5px; text-decoration: none; }
+#headernav li a:hover { border-bottom: 3px solid #474747; padding-bottom: 3px; }
+
+#body_content { background: #d6d6d6; padding: 20px; border: 1px solid #c1c1c1; border-radius: 10px ;}
+
+footer { margin-top: 8px; font-size: 13px; line-height: 18px; }
+footer h3, footer h2 { font-weight: bold; font-size: 16px; margin: 8px 0 0 0; text-shadow: rgba(255, 255, 255, 0.699219) 1px 1px 0px; }
+footer ul { list-style: none; }
+footer li { border-top: 1px solid #6b6b6b; margin: 0; padding: 4px 0; }
+footer a { text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+#footer_links { width: 144px; }
+#friend_links { width: 228px; }
+#footer_links ul, #friend_links ul { border-bottom: none; }
+#connect_links { width: 228px; margin: 0; }
+footer nav { float: left; margin-right: 24px; }
+#jdriven-logo { width: 144px;}
+#book-cover { width: 144px;}
+#copyright { margin-top: 24px; margin-bottom: 0px; text-align: center; }
+#copyright a { text-decoration: underline; }
+
+/* Clear fix */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
